@@ -1,0 +1,40 @@
+#video-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width:768px) {
+  #videos-column {
+    margin:-10px 0px 20px 0px;
+  }
+}
+
+.search-bar {
+  margin: 30px 15px;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 4px 15px;
+  width: 100%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.list-group-item {
+  margin: 10px 0px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
